@@ -31,7 +31,7 @@ public class Library {
 			{
 				WebDriverManager.chromedriver().setup();
 				driver=new ChromeDriver();
-				logger.info("====== Chrome Browser Launched =======");
+				logger.info("====== Chrome Browser Launched 1=======");
 			}
 			else if (prop.getProperty("browser").equalsIgnoreCase("firefox"))
 			{
