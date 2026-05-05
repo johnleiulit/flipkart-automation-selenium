@@ -1,5 +1,8 @@
 package com.Stepdefenitions;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
 import com.Baseclass.Library;
 import com.Pages.AddtToCartPage;
 import com.ReusableFuntions.SeleniumReusable;

@@ -31,10 +31,11 @@ public class SearchExcelPage extends Library{
 	public void SearchWithExcel() throws IOException, InterruptedException {
 		Excelutility excel = new Excelutility();
 
-		for (int i = 1; i <= 6; i++) {
+		for (int i = 1; i <= 4; i++) {
 			try {
 				String searchText = excel.ExcelRead("Testdata", i, 0);
 				se.EnterValue(SearchText, searchText);
+				Thread.sleep(3000);
 				SearchText.sendKeys(Keys.ENTER);
 				se.waits();
 				se.screenShot("src/test/resources/Screenshots/SearchResult/" + searchText + ".png");

@@ -58,7 +58,6 @@ public class FilterPage extends Library {
 	}
 	
 	public void Ram() throws InterruptedException {
-//		se.ScrollDown(Ram);
 		se.click(Ram);
 		se.waits();
 	}

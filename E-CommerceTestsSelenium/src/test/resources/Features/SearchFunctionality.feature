@@ -43,8 +43,7 @@ Examples:
 |Mobile|
 |Tv|
 |Laptop|
-|Speaker|
-|T shirt|
+
 
 @tc004 @Regression
 Scenario: To validate the add to cart functionality

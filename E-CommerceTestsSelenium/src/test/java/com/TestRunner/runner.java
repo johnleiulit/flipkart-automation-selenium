@@ -25,7 +25,7 @@ import io.cucumber.testng.CucumberOptions;
 
 //@RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/resources/Features/SearchFunctionality.feature", glue= {"com/Stepdefenitions", "com.Hooks"},
-				 plugin= {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}, tags="@tc006"
+				 plugin= {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}, tags="@Regression"
 )
 
 public class runner extends AbstractTestNGCucumberTests {

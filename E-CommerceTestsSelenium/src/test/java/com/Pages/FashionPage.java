@@ -20,7 +20,7 @@ public class FashionPage extends Library{
 	@FindBy(xpath="//div[text()='Fashion']")
 	WebElement Fashion;
 	
-	@FindBy(xpath="//input[@name='q']")
+	@FindBy(xpath="(//input[@placeholder='Search for Products, Brands and More'])[1]")
 	WebElement SearchText;
 	
 	@FindBy(xpath="//html[@lang='en']")
@@ -45,6 +45,7 @@ public class FashionPage extends Library{
 	}
 	
 	public void SearchText(String text) {
+		se.click(SearchText); 
 		se.EnterValue(SearchText, text);
 	}
 	public void ClickSearch() {
